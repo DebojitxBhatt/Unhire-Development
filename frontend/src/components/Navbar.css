@@ -1,0 +1,85 @@
+/* Styling for 'Services' link in navbar */
+.nav-link.services-link {
+  font-family: 'Instrument Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #222;
+}
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.meet-team-text {
+  font-family: 'Instrument Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #1A1A1A;
+}
+
+
+.navbar-unhire-text {
+  font-family: 'Island Moments', cursive;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 300px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 48px 0 48px;
+  background: transparent;
+}
+
+.logo {
+  width: 128px;
+  height: 128px;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 32px;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+}
+
+.join-now {
+  height: 70px;
+  border-radius: 50px;
+  font-family: 'Instrument Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: regular;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  
+}
+

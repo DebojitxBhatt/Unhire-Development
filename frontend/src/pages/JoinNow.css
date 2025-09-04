@@ -1,0 +1,84 @@
+/* Join Now page styles */
+.join-now-page {
+  background: #faf9fa;
+  min-height: 100vh;
+  padding: 48px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join-now-title {
+  font-family: 'Instrument Sans', Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.join-now-options {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.join-now-card {
+  background: #ece6fa;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(180, 138, 252, 0.10);
+  padding: 24px 24px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 460px;
+}
+
+.join-now-img {
+  width: 400px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.join-now-btn {
+  font-family: 'Instrument Sans', Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 32px;
+  padding: 12px 48px;
+  cursor: pointer;
+  margin-top: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+
+.recruiter-btn {
+  background: #0094db;
+  color: #fff;
+}
+
+.freelancer-btn {
+  background: #B57EDC;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .join-now-options {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .join-now-card {
+    width: 100%;
+    max-width: 400px;
+  }
+  .join-now-img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+}

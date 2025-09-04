@@ -1,0 +1,56 @@
+/* Footer section styles */
+.footer-section {
+  background: #dbdbdb;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 48px 0 32px 0;
+  margin-top: 64px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-copyright {
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  color: #222;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.footer-social-icon img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.footer-social span {
+  font-size: 1.1rem;
+  color: #222;
+  margin-right: 8px;
+}
